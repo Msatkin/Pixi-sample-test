@@ -1,8 +1,4 @@
-import * as packageJSON from "./../../package.json";
-
 export class Constants {
-    public static CLIENT_VERSION: string = (packageJSON as any).version;
-
     /**
      * Default settings for PIXI
      */

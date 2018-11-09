@@ -1,2 +1,4 @@
-# Pixi-sample-test
-A code challenge
+commands: 
+ - npm run dev
+ - npm run build
+ - npm run deploy

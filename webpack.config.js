@@ -45,10 +45,6 @@ module.exports = (env, argv) => {
         plugins: [
             new copyWebpackPlugin(copyDirectories)
         ],
-        output: {
-            publicPath: "/Pixi-sample-test/",
-            path: path.resolve(__dirname, "dist")
-        },
         module: {
             rules: [{
                 test: /\.ts(x?)$/,
