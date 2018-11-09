@@ -1,0 +1,21 @@
+{
+    "hello": "Hallo",
+    "world": "Welt",
+    "test_one": "<img>src=cardBack.png<img> Karte überweisen <img>src=cardBack.png<img>",
+    "test_two": "<img>src=emoji.png<img> Grafik Text <img>src=emoji.png<img>",
+    "test_three": "<img>src=flame.png<img> Fire <img>src=flame.png<img>",
+    "back": "zurück",
+    "start": "Test starten",
+    "pause_test": "Pause Test",
+    "test_running": "Test läuft",
+    "sample_0": "Ein",
+    "sample_1": "Lange",
+    "sample_2": "Liste",
+    "sample_3": "Of",
+    "sample_4": "Test",
+    "sample_5": "Wörter",
+    "sample_6": "An",
+    "sample_7": "Be",
+    "sample_8": "Verwendet",
+    "sample_9": "Ja?"
+}
