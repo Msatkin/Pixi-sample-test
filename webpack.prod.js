@@ -47,7 +47,7 @@ module.exports = (env, argv) => {
         ],
         output: {
             publicPath: "/Pixi-sample-test/",
-            path: path.resolve(__dirname, "dist")
+            path: "dist/"
         },
         module: {
             rules: [{

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server --content-base build/ --hot --inline --config-file webpack.config.js --mode=development",
     "deploy": "gh-pages -d dist",
-    "build": "webpack"
+    "build": "webpack --mode=production"
   },
   "keywords": [
     "SoftGames",
