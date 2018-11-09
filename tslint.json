@@ -1,0 +1,15 @@
+{
+    "extends": "tslint:latest",
+    "rules": {
+        "variable-name": [
+            true,
+            "check-format",
+            "allow-leading-underscore"
+        ],
+        "max-line-length": false,
+        "no-console": false,
+        "ordered-imports": false,
+        "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+        "no-implicit-dependencies": [true, "dev"]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "test_one": "<img>src=cardBack.png<img> Card Transfer <img>src=cardBack.png<img>",
+    "test_two": "<img>src=emoji.png<img> Graphic Text <img>src=emoji.png<img>",
+    "test_three": "<img>src=flame.png<img> Fire <img>src=flame.png<img>",
+    "back": "Back",
+    "start": "Start Test",
+    "pause_test": "Pause Test",
+    "test_running": "Test is Running",
+    "sample_0": "A ",
+    "sample_1": "Long ",
+    "sample_2": "List ",
+    "sample_3": "Of ",
+    "sample_4": "Test ",
+    "sample_5": "Words ",
+    "sample_6": "To ",
+    "sample_7": "Be ",
+    "sample_8": "Used ",
+    "sample_9": "Extra? "
+}
