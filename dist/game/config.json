@@ -1,0 +1,350 @@
+{
+    "preserveRatio": true,
+    "dimensions": {
+        "portrait": {
+            "x": 150,
+            "y": 300
+        },
+        "landscape": {
+            "x": 1920,
+            "y": 1080
+        }
+    },
+    "preloadAssets": [
+        {
+            "id": "loading",
+            "url": "game/images/loading.png"
+        }
+    ],
+    "assets": [
+        {
+            "id": "assets",
+            "url": "game/images/assets.json"
+        },
+        {
+            "id": "fireTexture",
+            "url": "game/images/flameTexture_small.png"
+        }
+    ],
+    "viewSettings": [
+        {
+            "name": "main",
+            "title": "MAIN_VIEW_TITLE",
+            "default": true,
+            "buttonSettings": [
+                {
+                    "text": "test_one",
+                    "dimensions": {
+                        "portrait": {
+                            "x":700,
+                            "y":56
+                        },
+                        "landscape": {
+                            "x":700,
+                            "y":56
+                        }
+                    },
+                    "position": {
+                        "portrait": {
+                            "x":610,
+                            "y":412
+                        },
+                        "landscape": {
+                            "x":610,
+                            "y":412
+                        }
+                    },
+                    "background": {
+                        "color": "#9494b8",
+                        "borderRadius": 15
+                    }
+                },
+                {
+                    "text": "test_two",
+                    "dimensions": {
+                        "portrait": {
+                            "x":700,
+                            "y":56
+                        },
+                        "landscape": {
+                            "x":700,
+                            "y":56
+                        }
+                    },
+                    "position": {
+                        "portrait": {
+                            "x":610,
+                            "y":512
+                        },
+                        "landscape": {
+                            "x":610,
+                            "y":512
+                        }
+                    },
+                    "background": {
+                        "color": "#9494b8",
+                        "borderRadius": 15
+                    }
+                },
+                {
+                    "text": "test_three",
+                    "dimensions": {
+                        "portrait": {
+                            "x":700,
+                            "y":56
+                        },
+                        "landscape": {
+                            "x":700,
+                            "y":56
+                        }
+                    },
+                    "position": {
+                        "portrait": {
+                            "x":610,
+                            "y":612
+                        },
+                        "landscape": {
+                            "x":610,
+                            "y":612
+                        }
+                    },
+                    "background": {
+                        "color": "#9494b8",
+                        "borderRadius": 15
+                    }
+                }
+            ]
+        },
+        {
+            "name": "card",
+            "title": "CARD_VIEW_TITLE",
+            "buttonSettings": [
+                {
+                    "text": "Back",
+                    "dimensions": {
+                        "portrait": {
+                            "x":120,
+                            "y":40
+                        },
+                        "landscape": {
+                            "x":120,
+                            "y":40
+                        }
+                    },
+                    "position": {
+                        "portrait": {
+                            "x":50,
+                            "y":50
+                        },
+                        "landscape": {
+                            "x":50,
+                            "y":50
+                        }
+                    },
+                    "background": {
+                        "color": "#9494b8",
+                        "borderRadius": 15
+                    }
+                },
+                {
+                    "text": "start",
+                    "dimensions": {
+                        "portrait": {
+                            "x":700,
+                            "y":56
+                        },
+                        "landscape": {
+                            "x":700,
+                            "y":56
+                        }
+                    },
+                    "position": {
+                        "portrait": {
+                            "x":610,
+                            "y":950
+                        },
+                        "landscape": {
+                            "x":610,
+                            "y":950
+                        }
+                    },
+                    "background": {
+                        "color": "#9494b8",
+                        "borderRadius": 15
+                    }
+                }
+            ],
+            "viewSpecific": {
+                "travelDistance": 500,
+                "position": {
+                    "portrait": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "landscape": {
+                        "x": 250,
+                        "y": 250
+                    }
+                },
+                "cardTexture": "cardBack.png",
+                "delay": 0.25,
+                "offset": {
+                    "x": 10,
+                    "y": 0
+                },
+                "cardCount": 144
+            }
+        },
+        {
+            "name": "text",
+            "title": "TEXT_VIEW_TITLE",
+            "buttonSettings": [
+                {
+                    "text": "Back",
+                    "dimensions": {
+                        "portrait": {
+                            "x":120,
+                            "y":40
+                        },
+                        "landscape": {
+                            "x":120,
+                            "y":40
+                        }
+                    },
+                    "position": {
+                        "portrait": {
+                            "x":50,
+                            "y":50
+                        },
+                        "landscape": {
+                            "x":50,
+                            "y":50
+                        }
+                    },
+                    "background": {
+                        "color": "#9494b8",
+                        "borderRadius": 15
+                    }
+                },
+                {
+                    "text": "start",
+                    "dimensions": {
+                        "portrait": {
+                            "x":700,
+                            "y":56
+                        },
+                        "landscape": {
+                            "x":700,
+                            "y":56
+                        }
+                    },
+                    "position": {
+                        "portrait": {
+                            "x":610,
+                            "y":950
+                        },
+                        "landscape": {
+                            "x":610,
+                            "y":950
+                        }
+                    },
+                    "background": {
+                        "color": "#9494b8",
+                        "borderRadius": 15
+                    }
+                }
+            ],
+            "viewSpecific": {
+                "images": [
+                    "pound.png",
+                    "euro.png",
+                    "dollar.png",
+                    "emoji.png"
+                ],
+                "words": [
+                    "sample_0",
+                    "sample_1",
+                    "sample_2",
+                    "sample_3",
+                    "sample_4",
+                    "sample_5",
+                    "sample_6",
+                    "sample_7",
+                    "sample_8",
+                    "sample_9"
+                ]
+            }
+        },
+        {
+            "name": "fire",
+            "title": "FIRE_VIEW_TITLE",
+            "buttonSettings": [
+                {
+                    "text": "Back",
+                    "dimensions": {
+                        "portrait": {
+                            "x":120,
+                            "y":40
+                        },
+                        "landscape": {
+                            "x":120,
+                            "y":40
+                        }
+                    },
+                    "position": {
+                        "portrait": {
+                            "x":50,
+                            "y":50
+                        },
+                        "landscape": {
+                            "x":50,
+                            "y":50
+                        }
+                    },
+                    "background": {
+                        "color": "#9494b8",
+                        "borderRadius": 15
+                    }
+                },
+                {
+                    "text": "pause_test",
+                    "dimensions": {
+                        "portrait": {
+                            "x":700,
+                            "y":56
+                        },
+                        "landscape": {
+                            "x":700,
+                            "y":56
+                        }
+                    },
+                    "position": {
+                        "portrait": {
+                            "x":610,
+                            "y":950
+                        },
+                        "landscape": {
+                            "x":610,
+                            "y":950
+                        }
+                    },
+                    "background": {
+                        "color": "#9494b8",
+                        "borderRadius": 15
+                    }
+                }
+            ],
+            "viewSpecific": {
+                "fireTexture": "fireTexture",
+                "firePosition": {
+                    "x":0,
+                    "y":60
+                },
+                "fireDimensions": {
+                    "x":500,
+                    "y":800
+                }
+            }
+        }
+    ]
+}
